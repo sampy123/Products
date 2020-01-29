@@ -7,10 +7,10 @@ import { Product } from './product';
 })
 export class ProductService {
   private productItems = PRODUCT_ITEMS;
-  /*
+
   getAllProducts(): Product[] {
     return this.productItems;
-  }*/
+  }
 
   constructor() { }
 }
